@@ -315,6 +315,7 @@ class BlindAssistantNavigator:
         
         # Draw legend
         legend_y = 100
+        width = 10000
         cv2.putText(blended, "Legend:", (width - 150, legend_y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
         
         legend_items = [
